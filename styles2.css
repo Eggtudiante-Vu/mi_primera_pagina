@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(34, 33, 31, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a i {
+  color: white;
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.1em;
+  color: white;
+  padding: 1em;
+}
+
+.seccion-1 {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.acerca-de {
+  text-align: justify;
+  text-align: right;
+  padding: 2em;
+  width: 400px;
+}
+
+.seccion-2 img {
+  width: 100%;
+}
+
+.Trabajos {
+  color: #b59a61;
+  padding: 1em;
+}
+
+.seccion-3 {
+  display: flex;
+  padding: 1em;
+}
+
+.uno {
+  padding: 1em;
+  width: 400px;
+}
+.imagen {
+  border-radius: 30px;
+}
+
+.fa-solid.fa-heart.fixed {
+  position: fixed;
+  bottom: 22px;
+  right: 39px;
+}
+
+footer {
+  background-color: #22211f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  padding: 2em;
+  justify-content: center;
+  text-align: center;
+}
+
+#footer h3 {
+  color: #b59a61;
+}
+
+#footer nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer nav ul li {
+  margin-top: 0.3em;
+}
+
+#footer nav ul li a {
+  color: #eeeeee;
+}
+
+footer a {
+  text-decoration: none;
+}
